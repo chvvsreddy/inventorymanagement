@@ -19,7 +19,7 @@ const DashboardLayout =  ({children}: {children:React.ReactNode}) => {
         }else{
             document.documentElement.classList.add("light")
         }
-    },[])
+    })
     
     return (
       <div className={` flex bg-gray-50 text-gray-900 w-full min-h-screen ${isDarkMode? "dark" : "light"}`} >
